@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" type="module" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <h1 class="site-title">Weather</h1>
+      <input type="text" placeholder="Find city" class="city-input" />
+      <button class="search-button">Search</button>
+    </header>
+    <div class="container">
+      <div class="weather-card">
+        <h2 class="city-name"></h2>
+        <span class="current-date"></span>
+        <div class="weather-card-left-block">
+          <div class="weather-info-header">
+            <div class="weather-header-left">
+              <div class="temperature-value"><span></span></div>
+              <img src="" alt="" class="weather-image" />
+            </div>
+            <div class="weather-description"><span></span></div>
+          </div>
+          <div class="weather-info weather-feeling">
+            <div>Feels like</div>
+            <div class="weatherFeels-value"><span></span></div>
+          </div>
+          <div class="weather-info wind">
+            <div>Wind speed</div>
+            <div class="wind-speed"><span></span></div>
+          </div>
+          <div class="weather-info pressure">
+            <div>Pressure</div>
+            <div class="pressure-value"><span></span></div>
+          </div>
+          <div class="weather-info humidity">
+            <div>Humidity</div>
+            <div class="humidity-value"><span></span></div>
+          </div>
+          <div class="weather-info ultraviolet">
+            <div>Ultraviolet index</div>
+            <div class="uv-value"><span></span></div>
+          </div>
+        </div>
+        <div class="weather-card-right-block">
+          <div class="forecast-top-part">
+            <div class="forecast-card">
+              <span class="forecast-time"></span>
+              <img src="" alt="" class="forecast-image" />
+              <div class="forecast-temperature"></div>
+            </div>
+            <div class="forecast-card">
+              <span class="forecast-time"></span>
+              <img src="" alt="" class="forecast-image" />
+              <div class="forecast-temperature"></div>
+            </div>
+            <div class="forecast-card">
+              <span class="forecast-time"></span>
+              <img src="" alt="" class="forecast-image" />
+              <div class="forecast-temperature"></div>
+            </div>
+            <div class="forecast-card">
+              <span class="forecast-time"></span>
+              <img src="" alt="" class="forecast-image" />
+              <div class="forecast-temperature"></div>
+            </div>
+          </div>
+          <div class="forecast-bottom-part">
+            <div class="bottom-part-title">Wind gusts(kph)</div>
+            <div class="wind-gust">
+              <div class="wind-gust-value">1</div>
+              <div class="wind-gust-value">2</div>
+              <div class="wind-gust-value">3</div>
+              <div class="wind-gust-value">4</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
